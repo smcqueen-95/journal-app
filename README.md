@@ -46,7 +46,15 @@ To check and update packages in package.json:
 npx npm-check-updates -u
 `
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 `
 npm run start
 `
+
+## Development Mode
+`npm start
+`
+
+Runs the app in the development mode.\
+Open [http://localhost:4040](http://localhost:4040) to view it in the browser.
+
