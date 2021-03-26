@@ -20,6 +20,14 @@ const MainNav = () => (
       Profile
     </NavLink>
     <NavLink
+      to="/external-api"
+      exact
+      className="nav-link"
+      activeClassName="router-link-exact-active"
+    >
+      External API
+    </NavLink>
+    <NavLink
       to="/journal-entries"
       exact
       className="nav-link"
@@ -27,6 +35,7 @@ const MainNav = () => (
     >
       Journal Entires
     </NavLink>
+    
     <NavLink
       to="/create-entry"
       exact
