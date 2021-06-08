@@ -10,7 +10,9 @@ Software Developer and aspiring Game Developer
 
 # Project 
 
-![Video](assets/todo-app.gif)
+Project was screen recorded on iPad Pro emulator
+
+![Video](frontend/src/assets/react-journal.gif)
 
 ## Experience with Project
 
@@ -59,7 +61,9 @@ npm run start
 `
 
 ## Development Mode
-`npm start
+
+`
+npm start
 `
 
 Runs the app in the development mode.\

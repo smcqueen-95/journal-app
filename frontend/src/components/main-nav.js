@@ -1,4 +1,4 @@
-import {NavLink, Navbar} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import React from "react";
 
 const MainNav = () => (
@@ -34,15 +34,6 @@ const MainNav = () => (
       activeClassName="router-link-exact-active"
     >
       Journal Entires
-    </NavLink>
-    
-    <NavLink
-      to="/create-entry"
-      exact
-      className="nav-link"
-      activeClassName="router-link-exact-active"
-    >
-      Create Journal Entry
     </NavLink>
   </div>
 );
