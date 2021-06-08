@@ -9,7 +9,6 @@ import { Home, Profile, JournalEntries, ExternalApi } from "./views";
 import ProtectedRoute from "./auth/protected-route";
 
 import "./app.css";
-import CreateEntry from "./views/create-entry";
 
 const App = () => {
   const { isLoading } = useAuth0();
@@ -27,7 +26,6 @@ const App = () => {
           <ProtectedRoute path="/profile" component={Profile} />
           <ProtectedRoute path="/external-api" component={ExternalApi} />
           <ProtectedRoute path="/journal-entries" component={JournalEntries} />
-          <ProtectedRoute path="/create-entry" component={CreateEntry} />
         </Switch>
       </div>
     </div>

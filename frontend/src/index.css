@@ -7,6 +7,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: scroll;
+  background: linear-gradient(
+    90deg,
+    #00B4D8 20%,
+    #90E0EF 100%,
+    #0077B6 30%,
+    #023E8A 20%
+  );
+min-height: 100vh;
 }
 
 code {
@@ -68,3 +76,14 @@ code {
 .hero .app-logo {
   max-width: 10.5rem;
 }
+
+.journal-entries {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  min-height: 100vh;
+  margin-bottom: 10px;
+
+}
+
+
